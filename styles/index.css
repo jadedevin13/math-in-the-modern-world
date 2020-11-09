@@ -1,0 +1,31 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+/* Your own custom utilities */
